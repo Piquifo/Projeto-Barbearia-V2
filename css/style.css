@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+:root {
+  /*COR*/
+  --hue: 266;
+  /*CORES NO HSL*/
+  --cor-primaria: hsl(var(--hue) 95% 58%);
+  --cor-secundaria: hsl(var(--hue) 30% 45%);
+  --cor-alternativa: hsl(var(--hue) 55% 36%);
+}
+
+
+
+
+
+body {
+  font-family: 'Noto Serif', serif;
+}
+
